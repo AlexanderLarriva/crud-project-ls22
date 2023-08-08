@@ -33,7 +33,7 @@ def get_user(form_data, repo):
 def index():
     messages = get_flashed_messages(with_categories=True)
     current_user = session.get('user')
-    print(current_user)
+    # print(current_user)
     return render_template(
         'index.html',
         messages=messages,

@@ -10,6 +10,7 @@ packages = [{include = "crud_project_ls22"}]
 python = "^3.10"
 flask = "^2.3.2"
 requests = "^2.31.0"
+gunicorn = "^21.2.0"
 
 
 [tool.poetry.group.dev.dependencies]

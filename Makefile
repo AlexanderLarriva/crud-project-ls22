@@ -7,3 +7,6 @@ start-debug:
 test:
 	poetry run flake8 .
 	poetry run pytest
+
+start-guni:
+	poetry run gunicorn --workers=4 --bind=127.0.0.1:8000 crud_project_ls22.app:app
