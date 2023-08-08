@@ -2,7 +2,7 @@ from urllib.parse import urljoin
 
 import requests
 
-BASE_URL = 'http://localhost:8000'
+BASE_URL = 'http://localhost:10000'
 
 
 def test_login_pass():
